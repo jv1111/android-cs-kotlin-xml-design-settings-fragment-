@@ -165,7 +165,9 @@
 <!--Security-->
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    >
 
                     <ImageView
                         android:id="@+id/securityIcon"
@@ -223,6 +225,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textColorHint="@color/hint"
+                        app:hintTextColor="@color/white"
                         app:startIconTint="@color/hint"
                         app:startIconDrawable="@drawable/baseline_wifi_find_24">
                         <com.google.android.material.textfield.TextInputEditText
@@ -236,13 +239,13 @@
                         android:layout_height="wrap_content"
                         android:hint="Password"
                         android:textColorHint="@color/hint"
+                        app:hintTextColor="@color/white"
                         app:startIconTint="@color/hint"
                         app:startIconDrawable="@drawable/baseline_wifi_password_24">
                         <com.google.android.material.textfield.TextInputEditText
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textColor="@color/white"
-                            android:textColorHint="@color/white" />
+                            android:textColor="@color/white" />
                     </com.google.android.material.textfield.TextInputLayout>
 
 
