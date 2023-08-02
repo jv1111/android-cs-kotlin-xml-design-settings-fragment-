@@ -7,6 +7,9 @@
 
     <style name="Theme.DynamicSettingsFragment" parent="Base.Theme.DynamicSettingsFragment" />
 
+    <style name="inputText" parent="ThemeOverlay.Material3.MaterialTimePicker.Display.TextInputEditText">
+    </style>
+
 <!-- parent is the a set of style that you can override using <item>your style/color<item/> -->
 <!--night mode theme-->
     <style name="nightModeSwitch" parent="Theme.AppCompat.Light">
