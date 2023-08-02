@@ -6,4 +6,11 @@
     </style>
 
     <style name="Theme.DynamicSettingsFragment" parent="Base.Theme.DynamicSettingsFragment" />
+
+<!-- parent is the a set of style that you can override using <item>your style/color<item/> -->
+    <style name="nightModeSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/night_mode</item>
+        <item name="colorSwitchThumbNormal">@color/white</item>
+        <item name="android:colorForeground">#989898</item>
+    </style>
 </resources>
