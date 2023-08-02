@@ -12,4 +12,7 @@
     <color name="security">#B60000</color>
 
     <color name="hint">#D3D3D3</color>
+    <color name="active_bg">#5E8468EA</color>
+    <color name="transparent">#00FFFFFF</color>
+
 </resources>
